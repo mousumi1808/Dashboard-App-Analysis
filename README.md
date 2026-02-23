@@ -1,4 +1,9 @@
+Problem statement:
 Analyze Google Play Store app data to uncover trends in ratings, reviews, and features that can guide app development strategy, improve user experience, and increase downloads and revenue.
+
+Challanges faced:
+While pushing data to sql , there were data truncation issues due to mismatch of datatype or length of datatype between sql & python, to resolve this i carefully mentioned the size and datatype of cleaned data in sql.
+
 
 Steps:
 After analysing & cleaning the data as discussed earlier, I pushed the final features to sql and then connected to power bi to build dashboard that helps to track important kpis majorly divided into 3 segments-
@@ -31,3 +36,8 @@ After analysing & cleaning the data as discussed earlier, I pushed the final fea
     * installation by type
     * rating by size bucket
     * avg price by year
+  
+  Tools used:
+    * Jupyter notebook for analysis
+    * sql for storing cleaned data
+    * power bi 
